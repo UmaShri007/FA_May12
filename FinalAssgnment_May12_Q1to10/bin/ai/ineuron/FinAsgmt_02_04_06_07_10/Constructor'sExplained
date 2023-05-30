@@ -1,0 +1,20 @@
+********Key Points on Constructors***********
+=============================================
+
+.1:: Constructors are special methods that are used to instantiate an object at 
+	 the time of creation itself.
+.2:: Constructors should have the same name as the class
+.3:: Constructors will have no return type.
+.4:: Creation of an object involves a call to the constructor.
+.5:: If the programmer hasn't written a constructor explicitly, the JVM during 
+	 run time will add the default constructor,when there is acall to the constructor.
+.6:: If the programmer has written a constructor explicitly,then the JVM wont add the
+	 default constructor and its programmers responsibility to include default constructor.
+.7:: Inside constructor first line will be this() or super() irrespective of written or not.
+.8:: Constructors cant be inherited but can be invoked using super().
+.9:: super() calls the parent class constructor
+.10:: this() calls the same class constructor and that too the zero-arg constructor.
+.11:: if the programmer hasn't specified any by default it will be super().
+.12:: Calling one constructor from another is called Constructor Chaining.
+.13:: There can be multiple constructors within the same class with different parameters,
+	  its called Constructor Overloading.
